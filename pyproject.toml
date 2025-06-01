@@ -2,3 +2,10 @@
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta" 
 backend-path = ["."]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths  = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+addopts = ["--cov=geometry_lib", "--cov-report=html", "-ra"]
