@@ -14,7 +14,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 VERSION = get_version("geometry_lib")
 
 setup(
-        name="geometric-shapes-calculator-tomatikkk",
+        name="geometric-shapes",
         version=VERSION,
         author="ToMaTiK",
         description="Библиотека для вычисления площади фигур.",
