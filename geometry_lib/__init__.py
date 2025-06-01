@@ -2,7 +2,7 @@
 from .exceptions import ShapeError, InvalidShapeParametersError, NonPositiveValueError, TriangleInequalityError
 from .shapes import Shape, Circle, Triangle
 
-__version__ = "0.0.1-dev"
+__version__ = "0.1.0"
 
 # фабрика экземпляров фигур
 def create_shape(*args: float, **kwargs: float) -> Shape:
